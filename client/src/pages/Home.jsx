@@ -46,28 +46,18 @@ const Home = () => {
       <Container>
         <Grid container justify="center" alignItems="center" direction="column" spacing={3} className={classes.gridContainer}>
           <Grid item xs={12}>
-            <img src={logo} alt="" style={{width: "600px"}}/>;
-          </Grid>
-          <Grid item xs={12}>
-            <Typography component="h1" variant="h4" align="center" style={{color: "white"}}>
-             CSEC-ASTU is a university club working to enhance technology through competetive programming and production of market standard software.
+          <Typography component="h1" variant="h2" align="center" style={{color: "white"}}>
+              CSEC ASTU 
             </Typography>
           </Grid>
           <Grid item xs={12}>
             <Typography component="h1" variant="h5" align="center" style={{color: "white"}}>
-             CSEC-ASTU in fame
+            THINK | CREATE | SOLVE
             </Typography>
           </Grid>
+
           <Grid item xs={12}>
-            <img src={team} alt="" style={{width: "400px"}}/>;
-          </Grid>
-          <Grid item xs={12}>
-            <Typography component="h1" variant="h4" align="center" style={{color: "white"}}>
-              Competitive Devision
-            </Typography>
-          </Grid>
-          <Grid item xs={12}>
-            <Typography component="h1" variant="h5" align="center" style={{color: "white"}}>
+            <Typography component="h1" variant="h6" align="center" style={{color: "white"}}>
               This where we are working to impress the problem itself.
             </Typography>
           </Grid>
@@ -75,8 +65,8 @@ const Home = () => {
 
         <Grid container justify="space-between" alignItems="stretch" spacing={3} className={classes.gridContainer}>
           <Grid item xs={12}>
-            <Typography component="h1" variant="h2" align="center" style={{color: "white"}}>
-              This week's CPD dashboard
+            <Typography component="h1" variant="h6" align="center" style={{color: "white"}}>
+             Scroll Down
             </Typography>
           </Grid>
           <Grid item xs={12}>
